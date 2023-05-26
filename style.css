@@ -1,0 +1,201 @@
+/* Genearl */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* navbar */
+
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    color: #506a85;
+    height: 75px;
+    z-index: 9;
+    line-height: 75px;
+}
+
+.nav {
+    border-bottom: 2px solid #506a85;
+}
+
+.nav .logo {
+    font-weight: 700;
+    font-size: 40px;
+    width: 200px;
+}
+
+.nav ul {
+    float: right;
+    list-style: none;
+}
+
+
+.nav ul li {
+    display: inline-block;
+    line-height: 50px;
+    margin-left: 20px;
+    text-transform: capitalize;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: #506a85;
+    font-size: 20px;
+}
+
+.nav ul li a:hover,
+.nav ul li .active {
+    color: #01A89E;
+    border-bottom: 3px solid #01A89E;
+    ;
+}
+
+
+/* header */
+
+.header {
+    height: 100vh;
+    position: relative;
+    /* background-image: url('https://www.jobstreet.com.ph/career-resources/wp-content/uploads/sites/3/2022/04/Laptop-Specs-For-Work-From-Home.jpg'); */
+    background-image: url('https://www.hiresafe.com/wp-content/uploads/2015/02/free-office-wallpaper-26001-26685-hd-wallpapers.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(80, 106, 133, 0.5);
+}
+
+.header .text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.header .text p {
+    margin: 20px 0;
+}
+
+.header .text h1 {
+    font-size: 50px;
+}
+
+.header .text .btn {
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.header .text .btn1 {
+    margin-right: 10px;
+    color: #01A89E;
+}
+
+.header .text .btn2 {
+    color: white;
+    background-color: #01A89E;
+}
+
+.header .text .btn:hover {
+    opacity: 0.75;
+}
+
+/* Features */
+
+.features {
+    padding: 100px 0;
+}
+
+.features h2 {
+    text-align: center;
+    font-size: 40px;
+    color: #506a85;
+}
+
+.features .line {
+    height: 5px;
+    width: 100px;
+    background-color: #01A89E;
+    margin: 10px auto 75px;
+}
+
+.features .feat {
+    padding: 50px 25px;
+    float: left;
+    text-align: center;
+    width: 28%;
+    border: 2px solid #506a85;
+    border-radius: 10px;
+}
+
+.features .feat:hover {
+    border: 2px solid #01A89E;
+}
+
+.features .two {
+    margin: 0 8%;
+}
+
+.features .feat img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid #01A89E;
+    padding: 5px;
+}
+
+.features .feat h3 {
+    font-size: 25px;
+    margin: 25px 0;
+    color: #506a85;
+}
+
+.features .feat p {
+    color: #777;
+    font-size: 18px;
+    margin: 25px 0;
+    line-height: 1.5;
+}
+
+.features .feat a {
+    display: block;
+    margin: 25px auto 0;
+    text-decoration: none;
+    color: #01A89E;
+    border-radius: 25px;
+    border: 3px solid #01A89E;
+    width: 150px;
+    padding: 10px 20px;
+}
+
+.features .feat a:hover {
+    color: white;
+    background-color: #01A89E;
+}
